@@ -48,9 +48,6 @@ class _HomePageState extends State<HomePage> {
             children: [
               //male card
               ReuseableCard(
-                // onTap: () {
-
-                // },
                 child: Cardtext(
                   colour: SelectedGender == Gender.male
                       ? Colors.white
